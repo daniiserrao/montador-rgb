@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.label {
+    min-width: 120px;
+    text-align: center;
+}
+
+.range {
+    min-width: 255px;
+}
+
+.text {
+    width: 35px;
+    margin-left: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgray;
+    margin-top:40px;
+}
